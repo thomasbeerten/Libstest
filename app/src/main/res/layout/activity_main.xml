@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/titlebackground"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnToggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/togglebutton"
+            android:maxHeight="50dp"
+            android:maxWidth="50dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_drawer"
+            android:text="toggle" />
+
+        <com.neopixl.pixlui.components.textview.TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="9dp"
+            android:text="My Design App"
+            android:textColor="#04AABA"
+            android:textSize="20dp"
+            pixlui:typeface="Bobbleboddy.ttf" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\zi04\AndroidStudioProjects\Libstest\app\build\intermediates\pre-dexed\debug\simple-side-drawer2-168f07c0b64ed4cad0cc5f9b41f88a3a949d8476.jar"
+        jar="C:\Users\zi04\AndroidStudioProjects\Libstest\app\libs\simple-side-drawer2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="5c03f3a39e0eb9ba2f74681d63093341ca9f3e55"/>
+    <item
+        dex="C:\Users\zi04\AndroidStudioProjects\Libstest\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-ba8f97bd18b39aa22881129d821d08128854ea70.jar"
+        jar="C:\Users\zi04\AppData\Local\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="C:\Users\zi04\AndroidStudioProjects\Libstest\app\build\intermediates\pre-dexed\debug\classes-32f75ad789ccd0ffd269d690e8e9e633afbf5005.jar"
+        jar="C:\Users\zi04\AndroidStudioProjects\Libstest\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+    <item
+        dex="C:\Users\zi04\AndroidStudioProjects\Libstest\app\build\intermediates\pre-dexed\debug\pixlui-1-0-5-830dafccb649a54d7a4f03e59a2ca8aaba4b686b.jar"
+        jar="C:\Users\zi04\AndroidStudioProjects\Libstest\app\libs\pixlui-1-0-5.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="b42ea4a02c2464b2ad006ee0582c8d3608d433ca"/>
+
+</pre-dex-items>

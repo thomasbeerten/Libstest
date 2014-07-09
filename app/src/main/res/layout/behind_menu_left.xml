@@ -1,0 +1,170 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui"
+    android:layout_width="240dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/backrepeat"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="@drawable/drawerbackground"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="18dp" />
+
+        <com.neopixl.pixlui.components.textview.TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#05E9FF"
+            android:gravity="center_horizontal"
+            android:padding="9dp"
+            android:text="Make your choise.."
+            android:textSize="20dp"
+            pixlui:typeface="Bobbleboddy.ttf" />
+
+        <!--menuitem-->
+        <LinearLayout
+            android:id="@+id/menu1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/menuitemselector"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxHeight="20dp"
+                android:src="@drawable/anydo" />
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:text="Do Something"
+                android:textColor="#05E9FF"
+                pixlui:typeface="Bobbleboddy_light.ttf" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="6dp"
+            android:background="#05E9FF" />
+
+        <!--menuitem-->
+        <LinearLayout
+            android:id="@+id/menu2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/menuitemselector"
+
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxHeight="20dp"
+                android:src="@drawable/browser" />
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:text="Visit a website"
+                android:textColor="#05E9FF"
+                pixlui:typeface="Bobbleboddy_light.ttf" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="6dp"
+            android:background="#05E9FF" />
+
+        <!--menuitem-->
+        <LinearLayout
+            android:id="@+id/menu3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/menuitemselector"
+
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxHeight="20dp"
+                android:src="@drawable/calendar" />
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:text="Make an appointment"
+                android:textColor="#05E9FF"
+                pixlui:typeface="Bobbleboddy_light.ttf" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="6dp"
+            android:background="#05E9FF" />
+
+        <!--menuitem-->
+        <LinearLayout
+            android:id="@+id/menu4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/menuitemselector"
+
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxHeight="20dp"
+                android:src="@drawable/camera" />
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:text="Take a picture"
+                android:textColor="#05E9FF"
+                pixlui:typeface="Bobbleboddy_light.ttf" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="6dp"
+            android:background="#05E9FF" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="18dp" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A63C61"
+    tools:context="com.thomascbeerten.libstest.app.Fragment3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.neopixl.pixlui.components.textview.TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Add something to your agenda!"
+        android:textSize="20dp"
+        pixlui:typeface="Bobbleboddy.ttf" />
+
+</FrameLayout>

@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"   xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui"
+    android:background="#82A63C"
+    tools:context="com.thomascbeerten.libstest.app.Fragment2">
+
+    <com.neopixl.pixlui.components.textview.TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Let's visit a website!"
+        android:textSize="20dp"
+        pixlui:typeface="Bobbleboddy.ttf" />
+
+</FrameLayout>

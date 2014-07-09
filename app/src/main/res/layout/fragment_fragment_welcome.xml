@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pixlui="http://schemas.android.com/apk/com.neopixl.pixlui"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#94A63C"
+    tools:context="com.thomascbeerten.libstest.app.Fragment4">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.neopixl.pixlui.components.textview.TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Pick something from the menu!"
+        android:textSize="20dp"
+        pixlui:typeface="Bobbleboddy.ttf" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <com.neopixl.pixlui.components.textview.TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|top"
+            android:text="Push this button:"
+            android:textSize="20dp"
+            pixlui:typeface="Bobbleboddy.ttf" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="25dp"
+            android:src="@drawable/ic_drawer" />
+    </LinearLayout>
+
+</FrameLayout>
